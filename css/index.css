@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100');
+
+body {
+    margin: auto;
+    padding: auto;
+    max-width: 1200px;
+    font-family: 'Raleway', sans-serif;
+    background-image: url("../img/header-image.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.header-content {
+    padding: 170px 0 50px 0;
+}
+
+.fa-play-circle{
+    margin:  20px 0 20px 0;
+    color: #8286a3;
+}
+h1 {
+    font-size: 4em;
+}
+.button-style {
+    background-color: #ff6d6d;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin:  0px 0 20px 0;
+}
+.button-style:hover {
+    background-color: #fb5858;
+    border: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.note{
+    font-weight: bold;
+}
+main {
+    background-image: none;
+    background-color: #fff;
+}
+
+.first-section {
+    display: grid;
+    grid-template-columns: auto 400px;
+}
+
+.first-section-text {
+    padding: 100px 50px 100px 100px;
+}
+
+.new-design {
+    color: #ff6d6d;
+}
+.text-header{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.text-body {
+    padding-right: 70px;
+    
+}
+.first-section-image {
+    background-color: #ececec;
+    position: relative;
+}
+
+.red-rectangle {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border:200px solid transparent;
+    border-right: 200px solid #ff6d6d;
+    border-bottom: 200px solid #ff6d6d;
+   
+}
+@media (max-width:922px) {
+    h1 {
+        font-size: 3em;
+    }
+    
+    .header-content {
+    padding: 130px 0 20px 0;
+    }
+    
+    .first-section{
+        grid-template-columns: 1fr;
+    }
+    
+    .first-section-image {
+        display: none;
+    }
+}
+
+@media (max-width:766px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    .header-content {
+    padding: 60px 0 0px 0;
+    }
+}
+
+@media (max-width:580px) {
+    h1 {
+        font-size: 1em;
+    }
+    
+    .header-content {
+    padding: 25px 0 0px 0;
+    }
+    
+    .button-style {
+        width: 130px;
+        height: 30px;
+        font-size: 14px;
+        margin:  0px 0 0px 0;
+    }
+    
+    .fa-play-circle{
+    margin:  7px 0 7px 0;
+}
+    
+}
